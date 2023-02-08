@@ -1,0 +1,64 @@
+.header {
+  font-size: 12px;
+  font-weight: 500;
+  #navLink {
+    color: white;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+#arrowDown {
+  width: 90px;
+  display: inline-block;
+  margin-top: 5px;
+}
+#logoPC {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+.container00 {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+  .copyOBC {
+    color: $copyColor;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+#botao {
+  padding: $button-padding;
+}
+@media (max-width: 405px) {
+  #logoPC {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  #logoPC {
+    width: 150px;
+    margin-top: 15px;
+  }
+}

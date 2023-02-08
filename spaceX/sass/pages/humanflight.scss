@@ -1,0 +1,145 @@
+.container00 {
+  &.container01 {
+    background-image: url("../../imagens/humanFlight/01.jpg");
+  }
+  &.container02 {
+    background-image: url("../../imagens/humanFlight/02.jpg");
+  }
+  &.container03 {
+    background-image: url("../../imagens/humanFlight/03.jpg");
+  }
+  &.container04 {
+    background-image: url("../../imagens/humanFlight/04.jpg");
+  }
+  &.container05 {
+    background-image: url("../../imagens/humanFlight/05.jpg");
+  }
+}
+
+.paddingTitleHuman {
+  padding-top: 240px;
+  .TituloHuman {
+    font-size: 120px;
+  }
+  .subTituloHuman {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  #arrowDown {
+    padding-top: 100px;
+    width: 120px;
+  }
+}
+
+.container01 {
+}
+
+.emailHuman {
+  color: white;
+}
+
+.sessaoTitulo {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#botaoHuman {
+  padding: $button-padding;
+  margin-top: 20px;
+}
+
+.containerPropaganda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 25vh;
+  margin-top: -25px;
+  .propaganda {
+    width: 650px;
+  }
+}
+
+.descricaoHuman {
+  margin-top: -10px;
+}
+.containerHuman01 {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+.containerHuman02 {
+  padding-top: 15%;
+  padding-left: 4%;
+}
+.containerHuman03 {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+.containerHuman04 {
+  padding-top: 15%;
+  padding-left: 4%;
+}
+.containerHuman05 {
+  padding-top: 15%;
+}
+
+// Media
+@media (max-width: 1300px) {
+  .paddingTitleHuman {
+    #arrowDown {
+      padding-top: 0px;
+      width: 120px;
+    }
+  }
+  .containerHuman01 {
+    .sessaoTitulo {
+      width: auto;
+    }
+    .descricaoHuman {
+      width: auto;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .paddingTitleHuman {
+    padding-top: 200px;
+
+    .TituloHuman {
+      font-size: 90px;
+    }
+    .subTituloHuman {
+      font-size: 30px;
+      font-weight: 300;
+      padding-top: 20px;
+    }
+    #arrowDown {
+      padding-top: 25px;
+      width: 120px;
+    }
+  }
+}
+// MEdia 414
+@media (max-width: 650px) {
+}
+
+@media (max-width: 650px) {
+  .paddingTitleHuman {
+    .TituloHuman {
+      font-size: 40px;
+    }
+    .subTituloHuman {
+      font-size: 20px;
+    }
+  }
+  .informacoes9 {
+  }
+  .sessaoTitulo {
+    font-size: 15px;
+    width: auto;
+  }
+  .descricaoHuman {
+    font-size: 15px;
+  }
+}

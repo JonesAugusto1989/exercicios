@@ -1,0 +1,166 @@
+.container00 {
+  &.containerTopo {
+    background-image: url("../../imagens/falcon9/01.jpg");
+  }
+  &.containerSegundo {
+    background-image: url("../../imagens/falcon9/02.jpg");
+  }
+  &.container01 {
+    background-image: url("../../imagens/falcon9/03.jpg");
+  }
+  &.container02 {
+    background-image: url("../../imagens/falcon9/04.jpg");
+  }
+  &.container03 {
+    background-image: url("../../imagens/falcon9/05.jpg");
+  }
+  &.container04 {
+    background-image: url("../../imagens/falcon9/06.jpg");
+  }
+  &.container05 {
+    background-image: url("../../imagens/falcon9/07.jpg");
+  }
+  &.container06 {
+    background-image: url("../../imagens/falcon9/08.jpg");
+  }
+  &.container07 {
+    background-image: url("../../imagens/falcon9/09.jpg");
+  }
+  &.container08 {
+    background-image: url("../../imagens/falcon9/10.jpg");
+  }
+  &.container09 {
+    background-image: url("../../imagens/falcon9/11.jpg");
+  }
+  &.container10 {
+    background-image: url("../../imagens/falcon9/12.jpg");
+  }
+  &.container11 {
+    background-image: url("../../imagens/falcon9/13.jpg");
+  }
+  &.container12 {
+    background-image: url("../../imagens/falcon9/14.jpg");
+  }
+  &.informacoes9 {
+    background-color: black;
+  }
+}
+.paddingTitle {
+  padding-top: 15%;
+  .titleFalcon {
+    font-size: 90px;
+    font-weight: 514;
+  }
+}
+
+.containerSegundoBlack {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+
+  .status-text {
+    display: flex;
+    justify-content: space-between;
+
+    .numbers {
+      font-size: 90px;
+    }
+    .numP {
+      font-size: 20px;
+    }
+  }
+}
+
+.SegundoText {
+  padding-top: 20%;
+  width: 640px;
+  font-size: 22px;
+  line-height: 50px;
+}
+#OverView {
+  padding-top: 10%;
+  padding-right: 50%;
+  font-size: 15px;
+
+  .table {
+    font-size: 15px;
+  }
+  .inter {
+    font-size: 15px;
+  }
+  #widthTable {
+    width: 650px;
+  }
+}
+
+.informacoes9 {
+  height: 85vh;
+  padding-top: 15%;
+  .email {
+    color: $copyColor;
+  }
+  #botao {
+    padding: $button-padding;
+  }
+}
+.botaoGrupo {
+  gap: 100px;
+}
+.textPreto {
+  color: $tabelaColor;
+}
+
+//Media
+@media (max-width: 580px) {
+  .paddingTitle {
+    .titleFalcon {
+      font-size: 60px;
+    }
+  }
+
+  .containerSegundoBlack {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
+    .status-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .numbers {
+        font-size: 90px;
+      }
+      .numP {
+        font-size: 20px;
+      }
+    }
+  }
+  .containerSegundo {
+    .SegundoText {
+      padding-top: 150px;
+      width: auto;
+      margin-bottom: auto;
+    }
+  }
+  #OverView {
+    padding-top: 10%;
+    padding-right: 50%;
+    font-size: 10px;
+
+    .table {
+      font-size: 13px;
+    }
+    .inter {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 340px) {
+  #widthTable {
+    margin-bottom: auto;
+  }
+}

@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: 500;
+}
+.header #navLink {
+  color: white;
+}
+.header #navLink:hover {
+  color: #b9b9b9;
+}
+
+#arrowDown {
+  width: 90px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#logoPC {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+#botao {
+  padding: 15px 35px;
+}
+
+@media (max-width: 405px) {
+  #logoPC {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  #logoPC {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url("../../imagens/home/01.jpg");
+}
+.container00.container02 {
+  background-image: url("../../imagens/home/03.jpg");
+}
+.container00.container03 {
+  background-image: url("../../imagens/home/02.gif");
+}
+.container00.container04 {
+  background-image: url("../../imagens/home/04.jpg");
+}
+
+.paddingTitle {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .tittlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+.container00.containerTopo {
+  background-image: url("../../imagens/falcon9/01.jpg");
+}
+.container00.containerSegundo {
+  background-image: url("../../imagens/falcon9/02.jpg");
+}
+.container00.container01 {
+  background-image: url("../../imagens/falcon9/03.jpg");
+}
+.container00.container02 {
+  background-image: url("../../imagens/falcon9/04.jpg");
+}
+.container00.container03 {
+  background-image: url("../../imagens/falcon9/05.jpg");
+}
+.container00.container04 {
+  background-image: url("../../imagens/falcon9/06.jpg");
+}
+.container00.container05 {
+  background-image: url("../../imagens/falcon9/07.jpg");
+}
+.container00.container06 {
+  background-image: url("../../imagens/falcon9/08.jpg");
+}
+.container00.container07 {
+  background-image: url("../../imagens/falcon9/09.jpg");
+}
+.container00.container08 {
+  background-image: url("../../imagens/falcon9/10.jpg");
+}
+.container00.container09 {
+  background-image: url("../../imagens/falcon9/11.jpg");
+}
+.container00.container10 {
+  background-image: url("../../imagens/falcon9/12.jpg");
+}
+.container00.container11 {
+  background-image: url("../../imagens/falcon9/13.jpg");
+}
+.container00.container12 {
+  background-image: url("../../imagens/falcon9/14.jpg");
+}
+.container00.informacoes9 {
+  background-color: black;
+}
+
+.paddingTitle {
+  padding-top: 15%;
+}
+.paddingTitle .titleFalcon {
+  font-size: 90px;
+  font-weight: 514;
+}
+
+.containerSegundoBlack {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+}
+.containerSegundoBlack .status-text {
+  display: flex;
+  justify-content: space-between;
+}
+.containerSegundoBlack .status-text .numbers {
+  font-size: 90px;
+}
+.containerSegundoBlack .status-text .numP {
+  font-size: 20px;
+}
+
+.SegundoText {
+  padding-top: 20%;
+  width: 640px;
+  font-size: 22px;
+  line-height: 50px;
+}
+
+#OverView {
+  padding-top: 10%;
+  padding-right: 50%;
+  font-size: 15px;
+}
+#OverView .table {
+  font-size: 15px;
+}
+#OverView .inter {
+  font-size: 15px;
+}
+#OverView #widthTable {
+  width: 650px;
+}
+
+.informacoes9 {
+  height: 85vh;
+  padding-top: 15%;
+}
+.informacoes9 .email {
+  color: #555252;
+}
+.informacoes9 #botao {
+  padding: 15px 35px;
+}
+
+.botaoGrupo {
+  gap: 100px;
+}
+
+.textPreto {
+  color: #d8d8d8;
+}
+
+@media (max-width: 580px) {
+  .paddingTitle .titleFalcon {
+    font-size: 60px;
+  }
+  .containerSegundoBlack {
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+  }
+  .containerSegundoBlack .status-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .containerSegundoBlack .status-text .numbers {
+    font-size: 90px;
+  }
+  .containerSegundoBlack .status-text .numP {
+    font-size: 20px;
+  }
+  .containerSegundo .SegundoText {
+    padding-top: 150px;
+    width: auto;
+    margin-bottom: auto;
+  }
+  #OverView {
+    padding-top: 10%;
+    padding-right: 50%;
+    font-size: 10px;
+  }
+  #OverView .table {
+    font-size: 13px;
+  }
+  #OverView .inter {
+    font-size: 13px;
+  }
+}
+@media (max-width: 340px) {
+  #widthTable {
+    margin-bottom: auto;
+  }
+}
+.container00.container01 {
+  background-image: url("../../imagens/humanFlight/01.jpg");
+}
+.container00.container02 {
+  background-image: url("../../imagens/humanFlight/02.jpg");
+}
+.container00.container03 {
+  background-image: url("../../imagens/humanFlight/03.jpg");
+}
+.container00.container04 {
+  background-image: url("../../imagens/humanFlight/04.jpg");
+}
+.container00.container05 {
+  background-image: url("../../imagens/humanFlight/05.jpg");
+}
+
+.paddingTitleHuman {
+  padding-top: 240px;
+}
+.paddingTitleHuman .TituloHuman {
+  font-size: 120px;
+}
+.paddingTitleHuman .subTituloHuman {
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+.paddingTitleHuman #arrowDown {
+  padding-top: 100px;
+  width: 120px;
+}
+
+.emailHuman {
+  color: white;
+}
+
+.sessaoTitulo {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#botaoHuman {
+  padding: 15px 35px;
+  margin-top: 20px;
+}
+
+.containerPropaganda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 25vh;
+  margin-top: -25px;
+}
+.containerPropaganda .propaganda {
+  width: 650px;
+}
+
+.descricaoHuman {
+  margin-top: -10px;
+}
+
+.containerHuman01 {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+
+.containerHuman02 {
+  padding-top: 15%;
+  padding-left: 4%;
+}
+
+.containerHuman03 {
+  padding-top: 15%;
+  padding-left: 55%;
+}
+
+.containerHuman04 {
+  padding-top: 15%;
+  padding-left: 4%;
+}
+
+.containerHuman05 {
+  padding-top: 15%;
+}
+
+@media (max-width: 1300px) {
+  .paddingTitleHuman #arrowDown {
+    padding-top: 0px;
+    width: 120px;
+  }
+  .containerHuman01 .sessaoTitulo {
+    width: auto;
+  }
+  .containerHuman01 .descricaoHuman {
+    width: auto;
+  }
+}
+@media (max-width: 810px) {
+  .paddingTitleHuman {
+    padding-top: 200px;
+  }
+  .paddingTitleHuman .TituloHuman {
+    font-size: 90px;
+  }
+  .paddingTitleHuman .subTituloHuman {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .paddingTitleHuman #arrowDown {
+    padding-top: 25px;
+    width: 120px;
+  }
+}
+@media (max-width: 650px) {
+  .paddingTitleHuman .TituloHuman {
+    font-size: 40px;
+  }
+  .paddingTitleHuman .subTituloHuman {
+    font-size: 20px;
+  }
+  .sessaoTitulo {
+    font-size: 15px;
+    width: auto;
+  }
+  .descricaoHuman {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
